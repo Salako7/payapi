@@ -1,0 +1,517 @@
+.logo{
+    margin-left: 70px;
+}
+
+.text{
+    font-size: 70px;
+    text-align: left;
+    width: 500px;
+    margin-left: 70px;
+    color: #36536B;
+}
+
+
+.container{
+    margin-left: 70px;
+}
+
+.contact{
+    margin-left: 70px;
+    color: #6c8294;
+}
+
+body{
+    background-color: #fbfcfe;
+    background-image: url(./../images1/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-position-y: -250px;
+    background-position-x: 600px;
+}
+
+.phone{
+    margin-left: 700px;
+    position: absolute;
+    top: 10%;
+}
+
+
+.section2 {
+    background-color: #1b262f;
+    margin-top: 150px;
+    padding: 60px 0;
+    color: #fff;
+    margin-left: -10px;
+    margin-right: -8px;
+}
+
+.section2-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.section2-text {
+    margin-left: 70px;
+    flex: 1 1 350px;
+    max-width: 400px;
+}
+
+.section2-text .work {
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+}
+
+.section2-text .today {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    color: #dbe4ee;
+}
+
+.about-btn {
+    display: inline-block;
+    padding: 10px 32px;
+    border: 2px solid #fff;
+    border-radius: 999px;
+    background: transparent;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+}
+
+.about-btn:hover {
+    background: #fff;
+    color: #36536B;
+}
+
+.section2-logos {
+    flex: 2 1 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px 48px;
+    align-items: center;
+    justify-items: start;
+    margin-top: 115px;
+}
+
+.section2-logos img {
+    max-width: 150px;
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+
+
+.section3{
+    background-image: url(./../images1/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-position-x: 170%;
+    background-size: 700px;
+    background-position-y: -30px;
+}
+
+
+
+.features-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  padding: 60px 0 80px 0;
+}
+
+.feature {
+  flex: 1 1 300px;
+  max-width: 350px;
+  text-align: center;
+}
+
+.feature-icon {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 32px;
+}
+
+.feature h3 {
+  color: #36536B;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.feature p {
+  color: #6c8294;
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+
+
+
+
+
+/* Pricing Section */
+
+.plans{
+    position: absolute; 
+    top: 53%; 
+    color: #ba4270; 
+    font-size: 25px; 
+    display: flex; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    left: 10%;
+}
+
+.pricing_content{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    color: #6c8294;
+}
+
+.prices{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    color: #36536B;
+    font-size: 50px;
+}
+
+
+
+/* Pricing Section Styles */
+.pricing-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.pricing-cards {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pricing-card {
+  border-radius: 10px;
+  width: 320px;
+  padding: 32px 24px;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: left;
+}
+
+.plan-title {
+  color: #ba4270;
+  font-size: 28px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.plan-desc {
+  color: #6c8294;
+  font-size: 15px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.plan-price {
+  font-size: 44px;
+  color: #36536b;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.pricing-card hr {
+  border: none;
+  border-top: 1px solid #e9e9e9;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.plan-features {
+  list-style: none;
+  padding: 0;
+  color: #36536b;
+  font-size: 16px;
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.plan-features li {
+  margin-bottom: 10px;
+}
+
+.plan-features .enabled {
+  color: #36536b;
+}
+
+.plan-features .enabled::before {
+  content: '';
+  color: #ba4270;
+  margin-right: 8px;
+}
+
+.plan-features .disabled {
+  color: #b0b8bc;
+}
+
+.request-btn {
+  width: 100%;
+  padding: 12px 0;
+  border: 1px solid #36536b;
+  border-radius: 999px;
+  background: #fff;
+  color: #36536b;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.request-btn:hover {
+  background: #36536b;
+  color: #fff;
+}
+
+
+
+/* About Section Styles */
+.about-hero {
+  padding: 60px 0 40px 0;
+  margin-left: 80px;
+}
+
+.about-title {
+  color: #36536b;
+  font-size: 48px;
+  font-weight: 700;
+  margin-left: 70px;
+  margin-bottom: 40px;
+  line-height: 1.1;
+  max-width: 700px;
+}
+
+.about-details {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  margin-left: 70px;
+  max-width: 1100px;
+}
+
+.about-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.about-label {
+  font-size: 24px;
+  font-weight: 700;
+  color: #36536b;
+  min-width: 180px;
+}
+
+.about-text {
+  color: #6c8294;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 700px;
+}
+
+
+
+
+/* Team Stats Section */
+.about-stats-section {
+  padding: 40px 0 60px 0;
+}
+
+.about-details{
+    margin-left: 180px;
+}
+
+.about-stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #dde3e8;
+  padding-bottom: 30px;
+  max-width: 1100px;
+  margin-left: 140px;
+  margin-right: auto;
+}
+
+.about-stat {
+  flex: 1;
+  text-align: left;
+  border-right: 1px solid #dde3e8;
+  padding-right: 40px;
+}
+
+.about-stat:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.about-stat-label {
+  color: #6c8294;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.about-stat-value {
+  color: #ba4270;
+  font-size: 44px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.about-stat-plus {
+  font-size: 36px;
+  font-weight: 400;
+  vertical-align: super;
+}
+
+
+
+
+/* Contact Hero Section */
+.contact-hero {
+    margin-left: 70px;
+    padding: 60px 0 40px 0;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-form-side {
+  flex: 1.2;
+  min-width: 340px;
+}
+
+.contact-title {
+  color: #36536b;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  line-height: 1.1;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  border: none;
+  border-bottom: 2px solid #b0b8bc;
+  background: transparent;
+  padding: 10px 0 8px 0;
+  font-size: 16px;
+  color: #36536b;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  border-bottom: 2px solid #ba4270;
+}
+
+.contact-form textarea {
+  resize: none;
+  font-family: inherit;
+}
+
+.contact-checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #6c8294;
+}
+
+.contact-form input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #ba4270;
+}
+
+.contact-submit-btn {
+  margin-top: 10px;
+  width: 120px;
+  padding: 10px 0;
+  border: 1.5px solid #36536b;
+  border-radius: 999px;
+  background: #fff;
+  color: #36536b;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.contact-submit-btn:hover {
+  background: #36536b;
+  color: #fff;
+}
+
+.contact-logos-side {
+  flex: 1;
+  min-width: 280px;
+  margin-top: 40px;
+}
+
+.contact-logos-title {
+  color: #36536b;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 230px;
+  margin-bottom: 32px;
+}
+
+.contact-logos {
+  flex: 2 1 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px 48px;
+    align-items: center;
+    justify-items: start;
+    /* margin-top: 260px; */
+    size: 10px;
+}
+
+.contact-logos img {
+  height: 32px;
+  width: 100px;
+  object-fit: contain;
+}
